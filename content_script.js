@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name         Trello Colors
+// @namespace    http://github.com/mhuyck
+// @version      2.1
+// @description  Allows for more color options on Trello labels.
+// @author       SimplexShotz
+// @match        https://trello.com/*
+// @grant        none
+// ==/UserScript==
 
 window.addEventListener("load", function() {
 
