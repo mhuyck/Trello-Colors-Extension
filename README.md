@@ -1,6 +1,6 @@
 # Trello-Colors-Extension
 
-*This extension was updated to support the new labels update for Trello. It has been completely rewritten with a focus on performance and features—see the features section for more infromation.*
+*Version 3.0 is out! Check the changelog at the bottom of the README for more information. Reinstall the extension to recieve the new updates!*
 
 ## To install this extension, follow these steps:
 
@@ -9,13 +9,23 @@
 3. Head on over to "chrome://extensions".
 4. Enable Developer Mode by toggling the switch in the top right corner of the extensions page.
 5. Click the "LOAD UNPACKED" button in the top left corner of the extensions page, and select the unzipped folder that you downloaded in step 1.
-6. Head on over to Trello, and you're all set!
+6. Head on over to Trello (or reload the page), and you're all set!
+
+### OR
+
+1. Install [TamperMonkey](https://www.tampermonkey.net).
+2. Install the extension as a userscript from [GreasyFork](https://greasyfork.org/en/scripts/505507-trello-colors).
+3. Head on over to Trello (or reload the page), and you're all set!
 
 ## To update this extension from an older version, follow these steps:
 
 1. Head on over to "chrome://extensions".
 2. Find the older version of Trello Colors, and click on the "Remove" button to delete it.
 3. Install the new version, following the steps outlined above.
+
+### OR
+
+1. Update the userscript from [GreasyFork](https://greasyfork.org/en/scripts/505507-trello-colors).
 
 ## How to use the extension:
 
@@ -30,9 +40,20 @@
 
 To anyone not using the extension, the name will show up exactly how you entered it (with the color code in the title), and it will not have the custom color. Unfortunately, there's really no other way to store the color, aside from in the label's name, so there's not much I can do about it. Have them install the extension too, if you really need to.
 
+## Features (v3):
+
+The latest version of this extension comes with several new features!
+
+1. The extension can now be installed as a userscript (since v2.4)! Install it on [GreasyFork](https://greasyfork.org/en/scripts/505507-trello-colors).
+3. Labels with custom colors will now also show customized tooltips on hover, displaying the custom color (in hex) and the correct title.
+2. Hovering a label with a custom color will now change its color, in line with the default label colors.
+4. Labels with custom colors now animate properly when showing or hiding the text on the front of cards.
+5. Colorblind cues now display properly on labels with custom colors.
+6. The white/black text color threshold has been adjusted to prefer white, making label text more readable in most cases.
+
 ## Features (v2):
 
-The latest version of this extension comes with some new features!
+Trello Colors v2 introduced quite a few new features:
 
 1. When editing a label, the color on the label will update in real time, so you don't have to guess what the label will look like when inputting a color.
 2. Darker colored labels will now show up with white text, making them much more readable. 3 character hex codes are also supported with this feature.
